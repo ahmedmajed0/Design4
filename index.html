@@ -1,0 +1,813 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+      <!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+<meta property="og:locale" content="en_US">
+
+
+<meta name="geo.region" content="US-MD" />
+
+
+<title>AutomateWebsites.com - Website Backend Generator</title>	
+
+<meta name="description" content="">
+<meta name="author" content="">
+
+
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+<!-- Web Fonts  -->
+
+<!-- Vendor CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- <link rel="stylesheet" href="vendor/animate.compat.css">
+<link rel="stylesheet" href="vendor/owl.carousel.min.css"> -->
+<link rel="stylesheet" href="vendor/owl.theme.default.min.css">
+
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="vendor/theme.css">
+<link rel="stylesheet" href="vendor/theme-elements.css">
+
+
+<!-- Skin CSS -->
+<link  rel="stylesheet" href="vendor/default.css">
+
+
+<style>
+
+
+
+
+#getStarted{
+    width: 100%;
+    padding: 100px 0px;
+
+    background-image: linear-gradient(rgba(16, 98, 254, 0.9) ,rgba(0, 136, 204, 0.9));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#getStarted .call-to-action-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#getStarted .call-to-action-content .pragraph{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 750px;
+}
+
+.thumb-info .thumb-info-title
+{
+    padding:6px 9px 2px;
+    bottom:4%;
+}
+
+.thumb-info .thumb-info-type 
+{
+    margin:8px -2px -7px 0px;
+}
+
+.pb-5 
+{
+    margin-bottom:0px !important;
+    padding-bottom:0px !important;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div
+{
+    padding: 10px;
+    border-radius: 3px;
+
+    display: inline-block;
+}
+
+#clockdiv div > span
+{
+    padding: 15px;
+    border-radius: 3px;
+    background: #006699;
+    display: inline-block;
+}
+
+.smalltext
+{
+padding-top: 5px;
+font-size: 16px;
+}
+
+div.section
+{
+    background:#f7f7f7;
+    border-top:5px solid #f1f1f1;
+    margin:30px 0;
+    padding:50px 0;
+}
+
+html div.section-primary 
+{
+    background-color:#0088CC !important;
+    border-color:#0077b3 !important;
+}
+
+
+.header-container .header-column  .header-row .header-nav .header-nav-main nav ul li #bb {
+    padding: 5px;
+}
+.header-container .header-column  .header-row .header-nav .header-nav-main nav ul li #bb div {
+    transition: all 0.3s ease 0s;
+
+    text-align: center;
+    padding: 5px 9px;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.header-container .header-column  .header-row .header-nav .header-nav-main nav ul li #bb div:hover{
+    background-color: #2A99D1;
+    color: white;
+}
+
+</style>
+
+	</head>
+	<body data-plugin-page-transition>
+		<div  class="body">
+
+			<header style="box-shadow: 0 10px 40px -40px rgb(0, 0, 0);" id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 70}">
+
+        <div class="header-body border-color-primary header-body-bottom-border">
+
+          <div class="header-top header-top-default border-bottom-0">
+
+            <div class="container">
+
+              <div class="header-row py-2">
+
+                <div class="header-column justify-content-start">
+
+                  <div class="header-row">
+
+                    <nav class="header-nav-top">
+
+                      <ul class="nav nav-pills text-uppercase text-2">
+
+                        <li class="nav-item nav-item-anim-icon d-none d-md-block">
+                          <a style="color:rgb(0, 154, 249); font-weight: bold;" class="nav-link ps-0" href="about_us.cfm"><i class="fas fa-angle-right"></i> About Us</a>
+                        </li>
+
+                        <li class="nav-item nav-item-anim-icon d-none d-md-block">
+                          <a style="color:rgb(0, 154, 249); font-weight: bold;" class="nav-link" href="contact_us.cfm"><i class="fas fa-angle-right"></i> Contact Us</a>
+                        </li>
+
+                      </ul>
+
+                    </nav>
+
+                  </div>
+
+                </div>
+
+                <div class="header-column justify-content-end">
+
+                  <div class="header-row">
+
+                    <div class="fb-like" data-href="https://www.facebook.com/AutomateWebsitescom-106605272202973" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true"></div>
+                  
+                    <a style="margin-left:5px;" class="btn btn-primary loginButton" href="/login.cfm" role="button"> Login </a>
+                      
+                    <a style="margin-left:5px;" class="btn btn-primary loginButton" href="/register.cfm" role="button"> Register </a>
+                    
+                  </div>
+        
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="header-container container">
+
+            <div class="header-row">
+
+              <div class="header-column">
+
+                <div class="header-row">
+
+                  <div class="header-logo ">
+
+                    <a  href="index.cfm">
+                      <a><img src="https://www.admingeekz.com/graphics/agz_billing_logo.jpg" width="200" alt=""> </a>
+                      
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="header-column justify-content-end">
+
+                <div class="header-row">
+
+                  <div class="header-nav header-nav-links order-2 order-lg-1">
+
+                    <div class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
+
+                      <nav class="collapse">
+
+                        <ul class="nav nav-pills" id="mainNav">
+
+                          <li >
+                              <a id="bb" href="index.cfm">
+                                  <div>Home</div>
+                              </a>
+
+                          </li>
+
+                          <li>
+                            <a id="bb" href="about_us.cfm">
+                              <div>Products</div>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a id="bb" href="how_it_works.cfm">
+                              <div>Domains</div>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a id="bb" href="features.cfm">
+                              <div>Affiliates</div>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a id="bb" href="faq.cfm">
+                              <div>Support</div>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a id="bb" href="contact_us.cfm">
+                              <div>Contact Us</div>
+                            </a> 
+                          </li>
+
+                        </ul>
+
+                      </nav>
+
+                    </div>
+
+                    <ul class="header-social-icons social-icons d-none d-sm-block">
+
+                      <li class="social-icons-facebook">
+                        <a href="https://www.facebook.com/AutomateWebsitescom-106605272202973" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                      </li>
+
+                      <li class="social-icons-twitter">
+                        <a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                      </li>
+
+                      <li class="social-icons-linkedin">
+                        <a href="https://www.linkedin.com/in/seniorcoldfusiondeveloper/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                      </li>
+
+                    </ul>
+
+                    <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
+                      <i class="fas fa-bars"></i>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </header>
+
+
+      <div style="box-shadow: 0 2px 30px -30px rgb(33, 33, 33);overflow: hidden;" class="head">
+        <div   class="container">
+          <div  class="row">
+
+            <div style="z-index: 1003;" class="col-5 left">
+                <div class="coverstext">
+                    <h1>OX App Suite</h2>
+                    <p>OX App Suite
+                      OX App Suite is powerful Email and Productivity Apps built for any-size business (and budget).</p>
+                    <button class="first_b">Get Started Now</button>
+                    <button class="seconed_b">Learn More</button>
+                    <div class="circle2"></div>
+                </div>  
+            </div>
+            <div  class="circle"></div>
+            <div style="z-index: 1003;"  class="col-6 right">
+              
+                <div class="image-holder">
+                    <img  src="images/i1.png" width="350" alt="">
+                </div>
+  
+  
+            </div>
+          </div>
+        </div>
+      </div>
+
+			<div role="main" class="main">
+
+
+        
+
+
+                <section style="margin-top:50px"  id="new-arrivals" class="new-arrivals">
+                    <div class="container">
+                        <div class="text-center mb-4">
+                            <h2 style="color: rgb(9, 30, 66);font-size: 35px; font-weight: bold;" class="section-title px-5">Find Your New Domain Name </h2>
+                        </div>
+                        <div class="input-group d-flex justify-content-center">
+                          <div id="search-autocomplete" class="form-outline col-5 ">
+                            <input type="search" id="form1" placeholder="Search" class="form-control" />
+                            
+                          </div>
+                          <button type="button" class="btn btn-primary col-1">
+                            <i class="fas fa-search"></i>
+                          </button>
+                        </div>
+                    </div><!--/.container-->
+                
+                </section>
+
+
+
+                
+
+				<div id="border-bt"  style="background-color: white; padding-bottom: 100px;" class="section border-top-0 mb-0">
+					<div class="container">
+						<div class="row counters counters-sm ">
+							<div class="col-sm-12 col-lg-12 mb-5 d-flex justify-content-around mb-lg-0">
+								<div class="counter d-flex">
+                  <strong style="margin-right: 7px; color:black" class=" text-6 ">.com</strong>
+									<strong class="opacity-7 text-5" data-to="10" data-append="$">0</strong>
+								</div>
+                <div style="border-right: 1px solid rgb(204, 202, 202);"></div>
+                <div class="counter d-flex">
+                  <strong style="margin-right: 7px; color:black" class="text-6 ">.net</strong>
+									<strong class="opacity-7 text-5" data-to="15" data-append="$">0</strong>
+								</div>
+                <div style="border-right: 1px solid rgb(204, 202, 202);"></div>
+                <div class="counter d-flex">
+                  <strong style="margin-right: 7px; color:black" class="text-6">.org</strong>
+									<strong class="opacity-7 text-5" data-to="13" data-append="$">0</strong>
+								</div>
+                <div style="border-right: 1px solid rgb(204, 202, 202);"></div>
+                <div class="counter d-flex">
+                  <strong  style="margin-right: 7px; color:black" class="text-5 ">.info</strong>
+									<strong class="opacity-7 text-5" data-to="19" data-append="$">0</strong>								
+								</div>
+                <div style="border-right: 1px solid rgb(204, 202, 202);"></div>
+                <div class="counter d-flex">
+                  <strong  style="margin-right: 7px; color:black" class="text-5 ">.me</strong>
+									<strong class="opacity-7 text-5" data-to="19" data-append="$">0</strong>								
+								</div>
+							</div>
+              
+						</div>
+					</div>
+				</div>
+
+
+
+        <div style="margin-top: 100px;"  class="container pt-2">
+          <div class="row f-feature mt-lg-4 pb-5 d-flex justify-content-center">
+            <h2  class="text-center p-3"> Products For All Businesses</h2>
+            <div class="col-lg-6 appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+              <div class="feature-box feature-box-style-2">
+                <div class="feature-box-info text-center">
+                  <img src="s1.png" width="120" alt="">
+                  <p class="font-weight-bold mb-2 pra1">Web Hosting</p>
+                  <p class="pra2">Select Your Perfect Plan</p>
+
+                  <div class="content">
+                    <span>Starting at</span>
+                    <strong>2.99$</strong>
+                    <span>Monthly</span>
+                  </div>
+
+                  <button>Get Started Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" style="animation-delay: 100ms;">
+              <div class="feature-box feature-box-style-2">
+                <div class="feature-box-info text-center">
+                  <img src="s2.jpg" width="150" alt="">
+                  <p class="font-weight-bold mb-2 pra1">Web Hosting</p>
+                  <p class="pra2">Select Your Perfect Plan</p>
+
+                  <div class="content">
+                    <span>Starting at</span>
+                    <strong>2.99$</strong>
+                    <span>Monthly</span>
+                  </div>
+
+                  <button>Get Started Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <section class="sec">
+          <div id="border-bt"  class="container pt-2">
+            <div class="row text-center mt-lg-4 pb-5">
+              <h2 class="text-center text-white p-3"> Our Guarantees</h2>
+              <div  class="col-lg-3 appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+                <div id="guranteeCol"  class="feature-box feature-box-style-2">
+                  <div style="margin-left: 10px" class="feature-box-icon  ">
+                    <i class="fa-solid fa-clock text-white"></i>
+                  </div>
+                  <div class="feature-box-info">
+                    <p class=" p-icon mb-2">24/7 Expert Support</p>
+                    <p>Proactively monitors for and alerts you about any malware that is detected on your website.</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div  class="col-lg-3 appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+                <div id="guranteeCol"  class="feature-box feature-box-style-2">
+                  <div style="margin-left: 10px" class="feature-box-icon  ">
+                    <i class="fa-solid fa-arrow-up-right-dots text-white"></i>
+                  </div>
+                  <div class="feature-box-info">
+                    <p class="p-icon mb-2">Fast & Reliable</p>
+                    <p>If a scan finds anything, SiteLock will safely remove any known malware automatically.</p>
+                  </div>
+                </div>
+              </div>
+              <div  class="col-lg-3 appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+                <div id="guranteeCol"  class="feature-box feature-box-style-2">
+                  <div style="margin-left: 10px" class="feature-box-icon  ">
+                    <i style="font-size:35px"  class="fa-sharp fa-solid fa-box text-white"></i>
+                  </div>
+                  <div class="feature-box-info">
+                    <p class="p-icon mb-2">Super Easy to Use</p>
+                    <p>Automatically checks your applications to ensure they are up-to-date and secured against known vulnerabilities</p>
+                  </div>
+                </div>
+              </div>
+              <div  class="col-lg-3 appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+                <div id="guranteeCol"  class="feature-box feature-box-style-2">
+                  <div style="margin-left: 10px" class="feature-box-icon  ">
+                    <i class="fa-sharp fa-solid fa-arrow-down-up-lock text-white"></i>
+                  </div>
+                  <div class="feature-box-info">
+                    <p class="p-icon mb-2">100% Uptime Guaranteed</p>
+                    <p>Get protection against the top 10 web app security flaws as recognised by OWASP, the Open Web Application Security Project.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-lg-4 pb-5">
+              <div  class="col-lg-3 appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+                <div id="guranteeCol"  class="feature-box feature-box-style-2">
+                  <div style="margin-left: 10px" class="feature-box-icon  ">
+                    <i class="fa-solid fa-shield-halved text-white"></i>
+                  </div>
+                  <div class="feature-box-info">
+                    <p class="p-icon mb-2">Secure Servers</p>
+                    <p>The TrueShield™ Web Application Firewall protects your website against hackers and attacks.</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div  class="col-lg-3 appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+                <div id="guranteeCol"  class="feature-box feature-box-style-2">
+                  <div style="margin-left: 10px" class="feature-box-icon  ">
+                    <i class="fa-solid fa-money-check-dollar text-white"></i>
+                  </div>
+                  <div class="feature-box-info">
+                    <p class="p-icon mb-2">Money-back Guarantee</p>
+                    <p>Daily scans help detect malware early before search engines have a chance to find it and blacklist your site.</p>
+                  </div>
+                </div>
+              </div>
+              <div  class="col-lg-3 appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+                <div id="guranteeCol"  class="feature-box feature-box-style-2">
+                  <div style="margin-left: 10px" class="feature-box-icon  ">
+                    <i class="fa-sharp fa-solid fa-chart-line text-white"></i>
+                  </div>
+                  <div class="feature-box-info">
+                    <p class="p-icon mb-2">High Performance</p>
+                    <p>Instant and fully automated setup gives you protection immediately without anything to install.</p>
+                  </div>
+                </div>
+              </div>
+              <div  class="col-lg-3 appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;">
+                <div id="guranteeCol"  class="feature-box feature-box-style-2">
+                  <div style="margin-left: 10px" class="feature-box-icon  ">
+                    <i class="fa-sharp fa-solid fa-circle-nodes text-white"></i>
+                  </div>
+                  <div class="feature-box-info">
+                    <p class="p-icon mb-2">Content Delivery Network</p>
+                    <p>Speed up your website by distributing it globally and serving it to your visitors from the closest location for faster page load speeds wherever they are.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div  class="container pt-2 smallInfo">
+          <h2 style="color: rgb(9, 30, 66);font-size: 35px; font-weight: bold;" class="text-center p-1"> We can also offer</h2>
+          <div class="row pt-3 content">
+              <div class="col-lg-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300">
+                  <div class="feature-box feature-box-style-2 d-flex">
+                      <div style="margin-right: 16px;" class="feature-box-icon" >
+                          <img src="images/tag1.svg" alt="" width="70" height="70">
+                      </div>
+                      <div class="feature-box-info" >
+                          <h4 class="font-weight-bold mb-2">Customer Support</h4>
+                          <p>Our customer support team offers 24/7 support. Feel free to at any time for any reason! Our mission is to deliver to you the website of your dreams!</p>
+                          <button style="background-color: rgb(16, 98, 254); color: white;" class="btn   btn-lg text-4 font-weight-semibold px-4 py-3">Read More</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 appear-animation" data-appear-animation="fadeInUpShorter">
+                  <div class="feature-box feature-box-style-2 d-flex">
+                      <div style="margin-right: 16px;" class="feature-box-icon">
+                          <img src="images/tag2.svg" alt="" width="70" height="70">
+                      </div>
+                      <div class="feature-box-info">
+                          <h4 class="font-weight-bold mb-2">Programming Languages</h4>
+                          <p>Prior to generating your website template, you can pick either Coldfusion, PHP, ASP, Python, or NodeJS as the programming language of your choice. </p>
+                          <button style="background-color: rgb(16, 98, 254); color: white;" class="btn   btn-lg text-4 font-weight-semibold px-4 py-3">Read More</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300">
+                  <div class="feature-box feature-box-style-2 d-flex">
+                      <div style="margin-right: 16px;" class="feature-box-icon">
+                          <img src="images/tag3.svg" alt="" width="70" height="70">
+                      </div>
+                      <div class="feature-box-info">
+                          <h4 class="font-weight-bold mb-2">Databases</h4>
+                          <p>We can import your database schema from either MySQL, MS SQL, MariaDB, PostgreSQL, or Oracle. For more information, check out our 
+                           to see which versions .
+                          </p>
+                          <button style="background-color: rgb(16, 98, 254); color: white;" class="btn   btn-lg text-4 font-weight-semibold px-4 py-3">Read More</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+      </div>
+
+
+
+      <div class="opposite">
+        <div class="container">
+          <div class="row">
+
+          </div>
+        </div>
+      </div>
+        
+
+
+        <div class="about2">
+          <!-- <h2 class="text-center p-1"> Latest News</h2>
+          <p  class="text-center opacity-7">Check our latest news and offers!</p> -->
+          <div class="container">
+            
+              <div class="row content">
+                  <div class="col-8 text-center box-1">
+                    <h2 class="font-weight-normal text-13 mb-0 text-white"><strong >Let’s Get Started!</strong> </h2>
+                    <p  class="mb-0">Mauris blandit arcu nec tellus lobortis, vitae aliquam lectus varius. Nunc sed magna ac nisi ultrices aliquam a ac turpis. Proin sagittis vel ipsum vitae luctus.</p>
+                      <a class="btn  btn-lg text-4 font-weight-semibold px-4 py-3" href="#">Contact Us</a>
+  
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+
+      
+
+      <!-- <section id="getStarted" class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer call-to-action-in-footer-margin-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-lg-9">
+              <div class="call-to-action-content">
+                <h2 class="font-weight-normal text-6 mb-0 text-white">We have <strong class="font-weight-extra-bold">everything</strong> you need to create an <strong class="font-weight-extra-bold">awesome</strong> website!</h2>
+                <p style="color: rgb(203, 213, 219);" class="mb-0">The Best Website Generator Ever</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-3 mt-4">
+              <div class="call-to-action-btn">
+                <a href="" target="_blank" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Get Started Now</a>
+
+                                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+
+      <!-- <section id="getStarted" class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer call-to-action-in-footer-margin-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-12  ">
+              <div class="call-to-action-content">
+                <h2 class="font-weight-normal text-12 mb-0 text-white"><strong >Let’s Get Started!</strong> </h2>
+                <div class="pragraph">
+                  <p style="color: rgb(203, 213, 219);" class="mb-0">Mauris blandit arcu nec tellus lobortis, vitae aliquam lectus varius. Nunc sed magna ac nisi ultrices aliquam a ac turpis. Proin sagittis vel ipsum vitae luctus.</p>
+                </div>
+                <a href="" target="_blank" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Contact Us</a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section> -->
+
+			</div>
+
+
+
+      <footer id="footer">
+				<div class="container">
+					<!-- <div class="footer-ribbon">
+						<span>Get in Touch</span>
+					</div> -->
+					<div class="row py-5 my-4">
+						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+							<h5 class="text-3 mb-3">FREE WEBSITE GENERATION SWEEPSTAKES</h5>
+							<p class="pe-1">Want to have a chance at generating a free website? Enter your e-mail address and subscribe to our sweepstakes. Good luck!</p>
+							<div class="alert alert-success d-none" id="newsletterSuccess">
+								<strong>Success!</strong> You've been added to our email list.
+							</div>
+							<div class="alert alert-danger d-none" id="newsletterError"></div>
+							<form id="newsletterForm" action="sweepstakes.cfm?submit=1" method="POST" class="me-4 mb-3 mb-md-0">
+								<div class="input-group input-group-rounded">
+									<input class="form-control form-control-sm bg-light" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="email">
+									<button style="background-color: #0088CC; font-size: 15px;" class="btn btn-light text-white" type="submit"><strong>GO!</strong></button>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+							<h5 class="text-3 mb-3">Products</h5>
+							<div id="tweet">
+								<p>Web Hosting</p>
+                <p>Cloud VPS</p>
+                <p>Reseller</p>
+                <p>SSL Certificates</p>
+							</div>
+                            <div class="fb-like" data-href="" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true"></div>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+							<div class="contact-details">
+								<h5 class="text-3 mb-3">Support</h5>
+								<ul class="list list-icons list-icons-lg">
+									<li class="mb-1"><p class="m-0">Contact Us</p></li>
+									<li class="mb-1"><p class="m-0">News</p></li>
+									<li class="mb-1"><p class="m-0">Knowledgebase</p></li>
+                  <li class="mb-1"><p class="m-0">Affiliates</p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-2">
+							<h5 class="text-3 mb-3">FOLLOW US</h5>
+							<ul class="social-icons">
+								<li class="social-icons-facebook"><a href="https://www.facebook.com/AutomateWebsitescom-106605272202973" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+								<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+								<li class="social-icons-linkedin"><a href="https://www.linkedin.com/in/seniorcoldfusiondeveloper/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container py-2">
+						<div class="row py-4">
+							<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+								<p>&copy; Copyright 2010-2022. All Rights Reserved.</p>
+							</div>
+							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
+								<nav id="sub-menu">
+									<ul>
+										<li><i class="fas fa-angle-right"></i><a href="faq.cfm" class="ms-1 text-decoration-none"> FAQ's</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="sitemap.cfm" class="ms-1 text-decoration-none"> Sitemap</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="contact_us.cfm" class="ms-1 text-decoration-none"> Contact Us</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+      
+
+		
+
+		<!-- Vendor -->
+		<script src="vendor/js/plugins.min.js"></script>
+
+		<!-- Theme Base, Components and Settings -->
+		<script src="vendor/js/theme.js"></script>
+
+
+
+		<!-- Theme Initialization Files -->
+		<script src="vendor/js/theme.init.js"></script>
+
+
+
+        <script>
+function getTimeRemaining(endtime) {
+  const total = Date.parse(endtime) - Date.parse(new Date());
+  const seconds = Math.floor((total / 1000) % 60);
+  const minutes = Math.floor((total / 1000 / 60) % 60);
+  const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+  const days = Math.floor(total / (1000 * 60 * 60 * 24));
+  
+  return {
+    total,
+    days,
+    hours,
+    minutes,
+    seconds
+  };
+}
+
+function initializeClock(id, endtime) {
+  const clock = document.getElementById(id);
+  const daysSpan = clock.querySelector('.days');
+  const hoursSpan = clock.querySelector('.hours');
+  const minutesSpan = clock.querySelector('.minutes');
+  const secondsSpan = clock.querySelector('.seconds');
+
+  function updateClock() {
+    const t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+    }
+  }
+
+  updateClock();
+  const timeinterval = setInterval(updateClock, 1000);
+}
+
+const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+initializeClock('clockdiv', deadline);
+        </script>
+
+	</body>
+</html>
